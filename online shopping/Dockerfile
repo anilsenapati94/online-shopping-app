@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements-prod.txt
 
 EXPOSE 5000
 
-CMD ["python3", "-manage.py", "runserver", "--host=0.0.0.0:5000"]
+CMD ["python3", "manage.py", "runserver", "--host=0.0.0.0:5000"]
